@@ -1,0 +1,10 @@
+Дз по блоку Laravel:https://github.com/netology-code/lrv-homeworks
+Официальная документация:https://laravel.com/
+На русском:https://laravel.su/
+На русском, но хуже:https://laravel.ru/
+
+С первого раза laravel проект установить не удалось. Не удовлетворены требования:
+1. требуется php ^7.2 -> ваша версия php (8.2.1)
+2. требуется ext-fileinfo * -> он отсутствует в вашей системе. В php.ini активируем extension=fileinfo
+  2.1. extension=mysqli, extension=pdo_mysql
+3. 
